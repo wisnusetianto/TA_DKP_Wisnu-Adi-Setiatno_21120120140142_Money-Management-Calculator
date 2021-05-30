@@ -189,7 +189,7 @@ def proyeksi():
     print_profit_3_3 = tkinter.Label(root, text="Rp. "+rupiah.rupiah(int(profit_3_b)), width=12, bg="light green", relief="groove").grid(row=19, column=14)
     print_profit_3_4 = tkinter.Label(root, text="Rp. "+rupiah.rupiah(int(profit_3_c)), width=12, bg="light green", relief="groove").grid(row=19, column=15)
 
-
+#GUI
 #frame
 frame = tkinter.Label(root, text=" ", width=20, height=1, bg="DodgerBlue2", relief="groove")
 frame.grid(row=1, column=7)
